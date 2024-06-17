@@ -1,0 +1,14 @@
+image: debian:bookworm
+
+stages:
+  - build
+
+build:
+  stage: build
+  tags:
+    - Linux
+  before_script:
+    - apt-get update -qy
+    - apt-get install -y make gcc
+  script:
+    - make
