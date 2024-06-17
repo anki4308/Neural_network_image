@@ -18,7 +18,7 @@ This program implements a simple neural network training algorithm using C. It i
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://gitlab.rz.htw-berlin.de/s0580270/mpt23-neural_network-ankit-ankit.git
+   https://github.com/anki4308/Neural_network_image.git
     ```
 
 2. Compile the program using a C compiler with OpenMP support:
